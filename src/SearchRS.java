@@ -1,4 +1,5 @@
-
+//Time O(log n)
+//space O(1)
 class Solution2 {
     public int findMin(int[] nums) {
         int left = 0;

@@ -1,3 +1,5 @@
+//Time O(log n)
+//space O(1)
 class Solution1 {
     public int[] searchRange(int[] nums, int target) {
         int firstOccurrence = findBound(nums, target, true);
